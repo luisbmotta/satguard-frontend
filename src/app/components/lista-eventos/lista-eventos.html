@@ -1,0 +1,18 @@
+<div class="lista-container">
+  <h2>Eventos Detectados</h2>
+  <div class="cards">
+    <div class="card" *ngFor="let evento of eventos">
+      <div class="card-header" [ngClass]="evento.tipo === 'TERREMOTO' ? 'terremoto' : 'asteroide'">
+        <span>{{ evento.tipo === 'TERREMOTO' ? '🌍' : '☄️' }} {{ evento.tipo }}</span>
+        <button (click)="toggleFavorito(evento)">
+          {{ evento.favorito ? '⭐' : '☆' }}
+        </button>
+      </div>
+      <div class="card-body">
+        <p>{{ evento.descricao }}</p>
+        <small>Intensidade: {{ evento.intensidade.toFixed(2) }}</small><br>
+        <small>{{ evento.dataEvento | date:'dd/MM/yyyy HH:mm' }}</small>
+      </div>
+    </div>
+  </div>
+</div>

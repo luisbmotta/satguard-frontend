@@ -1,0 +1,31 @@
+.mapa-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.filtros {
+  display: flex;
+  gap: 8px;
+}
+
+.filtros button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filtros button:hover {
+  background-color: #1558b0;
+}
