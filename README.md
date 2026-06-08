@@ -387,8 +387,8 @@ satguard/
 
 | Nome | RM | Turma |
 |---|---|---|
-| Luis | — | 4SIOA |
-| [Nome do colega] | — | 4SIOA |
+| Luis Fernando de Barros Motta | 95664 | 4SIOA |
+| Eduardo Lucca Dias da Costa | 95415 | 4SIOA |
 
 ---
 
